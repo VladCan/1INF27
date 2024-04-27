@@ -3,7 +3,7 @@
 using namespace std;
 
 int solucion(int piso[2][Niveles], int robots[cantRoborts], int &catSoluciones) {
-    int posibilidades = pow(2, Niveles) - 1;
+    int posibilidades = pow(2, Niveles);
     int solucion[5] = {};
     for (int i = 0; i < posibilidades; i++) {
         cargaBase(solucion, i, 2);

@@ -6,7 +6,7 @@ using namespace std;
 void mejorSolucion(int camiones[M],int paquetes[N]){
     int menoriferencia=1000,diferencia;
     int mayorCarga=0;
-    int opciones=pow(N,N)-1;
+    int opciones=pow(N,N);
     int solucion[N]={};
     int optimos[opciones][2]={};
     for(int i=0;i<opciones;i++){
